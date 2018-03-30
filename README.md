@@ -27,6 +27,13 @@ The typical flow of this scanner is :-
 - [x] Has a user-friendly interaction environment.
 - [x] Everything is automated on demand.
 
+#### Warnings:
+Do not use this tool on a live site!
+
+It is because this tool is designed to perform all kinds of form submissions automatically which can be dangerous to he site. Sometimes you may screw up your database and most probably perform a DoS on the site as well.
+
+Use on a disposable test site!
+
 #### Drawbacks:
 The scanner has the following drawbacks presently:
 
@@ -78,4 +85,4 @@ https://examplesite.com
 
 > Thank you...
 
-> @_tID (Team CodeSploit)
+✎ @_tID (Team CodeSploit)
