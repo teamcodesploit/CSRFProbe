@@ -64,7 +64,10 @@ python csrfprobe.py
 https://examplesite.com
 ```
 ➲ Let the scanner load up.
+
 ➲ Keep track of PoCs which may appear (if bug exists).
+
+➲ Report if any bugs found... ; )
 
 #### Version:
 
@@ -74,4 +77,5 @@ https://examplesite.com
 - Associate multithreading for the better.
 
 > Thank you...
+
 > @_tID (Team CodeSploit)
