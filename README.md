@@ -1,7 +1,7 @@
 <p align="middle"><img src='https://i.imgur.com/HfAUyKJ.png' /></p>  
 
-# CSRF Prober
-CSRF Prober is a advanced scanner for hunting down Cross Site Request Forgery bugs in web applications.
+# CSRF Probe
+CSRF Probe is a advanced scanner for hunting down Cross Site Request Forgery bugs in web applications.
 
 #### Working:
 The typical flow of this scanner is :-
@@ -36,7 +36,7 @@ The scanner has the following drawbacks presently:
 
 #### Requirements:
 
-- [+] mechanize
+- mechanize
 - urllib
 - urllib2
 - requests
@@ -48,8 +48,8 @@ The scanner has the following drawbacks presently:
 
 ➲ Clone the script and launch it.
 ```
-git clone https://github.com/the-Infected-Drake/<name>.git
-cd <name>
+git clone https://github.com/the-Infected-Drake/CSRFProbe.git
+cd CSRFProbe
 ```
 ➲ Install the dependencies.
 ```
@@ -57,12 +57,14 @@ pip install -r requirements
 ```
 ➲ Launch the script.
 ```
-python <name>.py
+python csrfprobe.py
 ```
 ➲ Enter the website target.
+```
+https://examplesite.com
+```
 ➲ Let the scanner load up.
 ➲ Keep track of PoCs which may appear (if bug exists).
-➲ Once you find a bug, report it. ;)
 
 #### Version:
 
@@ -71,5 +73,5 @@ python <name>.py
 #### To Do's:
 - Associate multithreading for the better.
 
-Thank you...
-✎ @_tID (Team CodeSploit)
+> Thank you...
+> @_tID (Team CodeSploit)
