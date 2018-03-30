@@ -5,13 +5,13 @@ CSRF Prober is a advanced scanner for hunting down Cross Site Request Forgery bu
 
 #### Working:
 The typical flow of this scanner is :-
-➥ Spiders the target website to find all pages.
-➥ Finds all types of forms present on the each page.
-➥ Hunts out hidden as well as visible parameter values.
-➥ Submits each form with normal tokens & parameter values.
-➥ Generates random token strings and sets parameter values.
-➥ Submits each form with the crafted tokens.
-➥ Finds out if the tokens are sufficiently protected.
+➥ Spiders the target website to find all pages.\n
+➥ Finds all types of forms present on the each page.\n
+➥ Hunts out hidden as well as visible parameter values.\n
+➥ Submits each form with normal tokens & parameter values.\n
+➥ Generates random token strings and sets parameter values.\n
+➥ Submits each form with the crafted tokens.\n
+➥ Finds out if the tokens are sufficiently protected.\n
 ➥ Generates custom proof of concepts after each successful bug hunt.
 
 #### Features:
