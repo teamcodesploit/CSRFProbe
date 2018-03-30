@@ -30,19 +30,19 @@ The typical flow of this scanner is :-
 #### Drawbacks:
 The scanner has the following drawbacks presently:
 
-- [-] Normally the scanner assumes that every form has a hidden/visible parameter and token field.
-- [-] Changing or removing that token field usually causes a 403 Forbidden response.
-- [-] Spidering is restricted to domains of startpages (so doesn't work with all domains). :(
+- Normally the scanner assumes that every form has a hidden/visible parameter and token field.
+- Changing or removing that token field usually causes a 403 Forbidden response.
+- Spidering is restricted to domains of startpages (so doesn't work with all domains). :(
 
 #### Requirements:
 
-➾ mechanize
-➾ urllib
-➾ urllib2
-➾ requests
-➾ bs4
-➾ lxml
-➾ logging
+- [+] mechanize
+- urllib
+- urllib2
+- requests
+- bs4
+- lxml
+- logging
 
 #### Usage:
 
