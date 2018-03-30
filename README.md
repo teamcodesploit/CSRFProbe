@@ -71,7 +71,7 @@ https://examplesite.com
 
 #### Version:
 
-- v1.0.0
+- v1.1.0
 
 #### To Do's:
 - Associate multithreading for the better.
