@@ -1,0 +1,6 @@
+scapy
+requests
+mechanize
+bs4
+lxml
+logging
